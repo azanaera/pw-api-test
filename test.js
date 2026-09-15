@@ -200,6 +200,55 @@ pm.test("KNOWN ISSUE: payment[].planPremium is a string with embedded currency",
     });
 });
 
+pm.test("KNOWN ISSUE: EFT/RCC installments are Direct Bill's schedule minus the flat fee difference, not repriced off their own totalPremium", () => {
+    // Root cause behind "every option's installmentData sums to a sane total"
+    // failing for every EFT/RCC plan (see that test above): for a given plan
+    // name, EFT/RCC's installment amounts equal the Direct Bill plan's
+    // installment amounts minus (directFee - eftOrRccFee), installment for
+    // installment — instead of being amortized from EFT/RCC's own
+    // totalPremium. That's why the sums drift from totalPremium by amounts
+    // that track the Direct/EFT premium gap, not by fee alone.
+    // TODO: once the backend reprices EFT/RCC installments off their own
+    // premium, this assertion will start failing — flip it to assert the
+    // installments reconcile to totalPremium instead (i.e. delete this test,
+    // the aggregate sum-check above already covers the correct behavior).
+    const TOLERANCE = 0.02;
+    const directPlans = response.options.filter((o) => o.paymentType === "Direct");
+    const otherPlans = response.options.filter((o) => o.paymentType === "EFT" || o.paymentType === "RCC");
+
+    const mismatches = [];
+    otherPlans.forEach((opt) => {
+        const directPlan = directPlans.find((d) => d.paymentPlanName === opt.paymentPlanName);
+        if (!directPlan) return; // e.g. "Paid in Full" has no Direct Bill counterpart to compare against
+
+        if (directPlan.installmentData.length !== opt.installmentData.length) {
+            mismatches.push(
+                `${opt.paymentPlanName} (${opt.paymentType}): installment count ${opt.installmentData.length} ` +
+                `!= Direct's ${directPlan.installmentData.length}`
+            );
+            return;
+        }
+
+        const feeDiff = directPlan.fee - opt.fee;
+        opt.installmentData.forEach((inst, i) => {
+            const actual = parseFloat(inst.amount);
+            const expected = parseFloat(directPlan.installmentData[i].amount) - feeDiff;
+            if (Math.abs(actual - expected) > TOLERANCE) {
+                mismatches.push(
+                    `${opt.paymentPlanName} (${opt.paymentType}) installment #${i + 1}: ${actual.toFixed(2)}, ` +
+                    `expected Direct(${directPlan.installmentData[i].amount}) - feeDiff(${feeDiff.toFixed(2)}) = ${expected.toFixed(2)}`
+                );
+            }
+        });
+    });
+
+    // Asserting the BUG pattern currently holds for every installment checked
+    // (empty mismatches list = the known pattern was found everywhere it
+    // should be) — so this test fails the moment the pattern breaks, in
+    // either direction.
+    pm.expect(mismatches.length, mismatches.join(" | ")).to.eql(0);
+});
+
 // ============================================================
 // CI WIRING NOTE (GitLab CI / Newman):
 // Inject the schema as an environment variable before the run, e.g.:
