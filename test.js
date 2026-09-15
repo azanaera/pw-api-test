@@ -69,15 +69,28 @@ pm.test("options is a non-empty array with numeric premium fields", () => {
 });
 
 pm.test("every option's installmentData sums to a sane total", () => {
-    response.options.forEach((opt) => {
-        const sum = opt.installmentData.reduce(
-            (acc, i) => acc + parseFloat(i.amount),
-            0
-        );
-        // allow a few cents of rounding slack across installments
-        pm.expect(sum).to.be.closeTo(opt.totalPremium, 1.0,
-            `${opt.paymentPlanName} (${opt.paymentType}) installments sum to ${sum.toFixed(2)}, expected ~${opt.totalPremium}`);
-    });
+    // Compute sum vs. totalPremium for EVERY plan first, then fail once with
+    // every offending plan listed — a forEach-based assertion stops at the
+    // first mismatch and hides whether other plans are also affected.
+    const TOLERANCE = 1.0; // a few cents of rounding slack across installments
+    const mismatches = response.options
+        .map((opt) => {
+            const sum = opt.installmentData.reduce(
+                (acc, i) => acc + parseFloat(i.amount),
+                0
+            );
+            return { opt, sum, diff: sum - opt.totalPremium };
+        })
+        .filter(({ diff }) => Math.abs(diff) > TOLERANCE);
+
+    const message = mismatches
+        .map(({ opt, sum, diff }) =>
+            `${opt.paymentPlanName} (${opt.paymentType}): installments sum to ${sum.toFixed(2)}, ` +
+            `expected ~${opt.totalPremium.toFixed(2)} (diff ${diff >= 0 ? "+" : ""}${diff.toFixed(2)})`
+        )
+        .join(" | ");
+
+    pm.expect(mismatches.length, message).to.eql(0);
 });
 
 pm.test("quoteInfo has a usable quoteID and URLs", () => {
