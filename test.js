@@ -208,6 +208,12 @@ pm.test("KNOWN ISSUE: EFT/RCC installments are Direct Bill's schedule minus the 
     // installment — instead of being amortized from EFT/RCC's own
     // totalPremium. That's why the sums drift from totalPremium by amounts
     // that track the Direct/EFT premium gap, not by fee alone.
+    // Confirmed identically across two independent sample quotes, with one
+    // consistent quirk both times: the "1-Month Down" plan's FIRST
+    // installment is billed before the fee applies, so it matches Direct's
+    // first installment exactly (no fee subtracted) — every other
+    // installment, on every plan, does get the flat fee difference
+    // subtracted, including "1-Month Down"'s remaining installments.
     // TODO: once the backend reprices EFT/RCC installments off their own
     // premium, this assertion will start failing — flip it to assert the
     // installments reconcile to totalPremium instead (i.e. delete this test,
@@ -232,11 +238,14 @@ pm.test("KNOWN ISSUE: EFT/RCC installments are Direct Bill's schedule minus the 
         const feeDiff = directPlan.fee - opt.fee;
         opt.installmentData.forEach((inst, i) => {
             const actual = parseFloat(inst.amount);
-            const expected = parseFloat(directPlan.installmentData[i].amount) - feeDiff;
+            const directAmt = parseFloat(directPlan.installmentData[i].amount);
+            const isFeeExemptFirstInstallment = i === 0 && opt.paymentPlanName === "1-Month Down";
+            const expected = isFeeExemptFirstInstallment ? directAmt : directAmt - feeDiff;
             if (Math.abs(actual - expected) > TOLERANCE) {
                 mismatches.push(
                     `${opt.paymentPlanName} (${opt.paymentType}) installment #${i + 1}: ${actual.toFixed(2)}, ` +
-                    `expected Direct(${directPlan.installmentData[i].amount}) - feeDiff(${feeDiff.toFixed(2)}) = ${expected.toFixed(2)}`
+                    `expected ${expected.toFixed(2)} (Direct ${directAmt.toFixed(2)}` +
+                    `${isFeeExemptFirstInstallment ? ", fee-exempt first installment" : ` - feeDiff ${feeDiff.toFixed(2)}`})`
                 );
             }
         });
