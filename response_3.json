@@ -1,0 +1,1967 @@
+{
+    "msgStatus": "quoted",
+    "policyInfo": {
+        "insured": {
+            "firstName": "autoa",
+            "lastName": "abcd",
+            "primaryAddress": {
+                "addressLine1": "123 Fake St",
+                "city": "GRIFFITH",
+                "validUntil": "null"
+            },
+            "emailAddress1": "unknown@unknown.com"
+        },
+        "producerCode": {
+            "id": "139999"
+        },
+        "baseState": "IN",
+        "jobEffectiveDate": "2026-07-25T05:01:00Z",
+        "jobExpirationDate": "2027-07-25T05:01:00Z",
+        "termType": "Annual",
+        "policyType": "PersonalAuto",
+        "effectiveDt": "2026-07-25T05:01:00Z",
+        "expirationDt": "2027-07-25T05:01:00Z",
+        "product": "Personal Auto",
+        "uwCompany": "Trexis Insurance Corp"
+    },
+    "payment": [
+        {
+            "paymentPlanCd": "Paid in Full Payment Plan",
+            "planPremium": "755.00 usd",
+            "additionalQuotedScenario": [
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "248.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Bodily Injury"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "410.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Property Damage"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "37.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Rental Reimbursement"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "60.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Accidental Death"
+                        }
+                    ],
+                    "coverable": "Personal Auto"
+                }
+            ]
+        },
+        {
+            "paymentPlanCd": "1-Month Down - EFT",
+            "planPremium": "949.00 usd",
+            "additionalQuotedScenario": [
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "329.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Bodily Injury"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "523.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Property Damage"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "37.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Rental Reimbursement"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "60.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Accidental Death"
+                        }
+                    ],
+                    "coverable": "Personal Auto"
+                }
+            ]
+        },
+        {
+            "paymentPlanCd": "11% Down Installment Payment Plan - EFT",
+            "planPremium": "949.00 usd",
+            "additionalQuotedScenario": [
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "329.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Bodily Injury"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "523.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Property Damage"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "37.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Rental Reimbursement"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "60.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Accidental Death"
+                        }
+                    ],
+                    "coverable": "Personal Auto"
+                }
+            ]
+        },
+        {
+            "paymentPlanCd": "10% Down Installment Payment Plan - EFT",
+            "planPremium": "949.00 usd",
+            "additionalQuotedScenario": [
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "329.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Bodily Injury"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "523.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Property Damage"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "37.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Rental Reimbursement"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "60.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Accidental Death"
+                        }
+                    ],
+                    "coverable": "Personal Auto"
+                }
+            ]
+        },
+        {
+            "paymentPlanCd": "16.67% Down Installment Payment Plan - EFT",
+            "planPremium": "949.00 usd",
+            "additionalQuotedScenario": [
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "329.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Bodily Injury"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "523.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Property Damage"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "37.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Rental Reimbursement"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "60.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Accidental Death"
+                        }
+                    ],
+                    "coverable": "Personal Auto"
+                }
+            ]
+        },
+        {
+            "paymentPlanCd": "12.50% Down Installment Payment Plan - EFT",
+            "planPremium": "949.00 usd",
+            "additionalQuotedScenario": [
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "329.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Bodily Injury"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "523.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Property Damage"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "37.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Rental Reimbursement"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "60.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Accidental Death"
+                        }
+                    ],
+                    "coverable": "Personal Auto"
+                }
+            ]
+        },
+        {
+            "paymentPlanCd": "1-Month Down - RCC",
+            "planPremium": "949.00 usd",
+            "additionalQuotedScenario": [
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "329.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Bodily Injury"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "523.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Property Damage"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "37.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Rental Reimbursement"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "60.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Accidental Death"
+                        }
+                    ],
+                    "coverable": "Personal Auto"
+                }
+            ]
+        },
+        {
+            "paymentPlanCd": "11% Down Installment Payment Plan - RCC",
+            "planPremium": "949.00 usd",
+            "additionalQuotedScenario": [
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "329.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Bodily Injury"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "523.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Property Damage"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "37.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Rental Reimbursement"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "60.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Accidental Death"
+                        }
+                    ],
+                    "coverable": "Personal Auto"
+                }
+            ]
+        },
+        {
+            "paymentPlanCd": "10% Down Installment Payment Plan - RCC",
+            "planPremium": "949.00 usd",
+            "additionalQuotedScenario": [
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "329.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Bodily Injury"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "523.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Property Damage"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "37.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Rental Reimbursement"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "60.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Accidental Death"
+                        }
+                    ],
+                    "coverable": "Personal Auto"
+                }
+            ]
+        },
+        {
+            "paymentPlanCd": "16.67% Down Installment Payment Plan - RCC",
+            "planPremium": "949.00 usd",
+            "additionalQuotedScenario": [
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "329.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Bodily Injury"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "523.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Property Damage"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "37.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Rental Reimbursement"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "60.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Accidental Death"
+                        }
+                    ],
+                    "coverable": "Personal Auto"
+                }
+            ]
+        },
+        {
+            "paymentPlanCd": "12.50% Down Installment Payment Plan - RCC",
+            "planPremium": "949.00 usd",
+            "additionalQuotedScenario": [
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "329.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Bodily Injury"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "523.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Property Damage"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "37.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Rental Reimbursement"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "60.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Accidental Death"
+                        }
+                    ],
+                    "coverable": "Personal Auto"
+                }
+            ]
+        },
+        {
+            "paymentPlanCd": "1-Month Down - Direct Bill",
+            "planPremium": "1174.00 usd",
+            "additionalQuotedScenario": [
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "421.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Bodily Injury"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "656.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Property Damage"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "37.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Rental Reimbursement"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "60.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Accidental Death"
+                        }
+                    ],
+                    "coverable": "Personal Auto"
+                }
+            ]
+        },
+        {
+            "paymentPlanCd": "11% Down Installment Payment Plan - Direct Bill",
+            "planPremium": "1042.00 usd",
+            "additionalQuotedScenario": [
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "364.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Bodily Injury"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "581.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Property Damage"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "37.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Rental Reimbursement"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "60.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Accidental Death"
+                        }
+                    ],
+                    "coverable": "Personal Auto"
+                }
+            ]
+        },
+        {
+            "paymentPlanCd": "10% Down Installment Payment Plan - Direct Bill",
+            "planPremium": "1042.00 usd",
+            "additionalQuotedScenario": [
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "364.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Bodily Injury"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "581.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Property Damage"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "37.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Rental Reimbursement"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "60.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Accidental Death"
+                        }
+                    ],
+                    "coverable": "Personal Auto"
+                }
+            ]
+        },
+        {
+            "paymentPlanCd": "16.67% Down Installment Payment Plan - Direct Bill",
+            "planPremium": "896.00 usd",
+            "additionalQuotedScenario": [
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "306.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Bodily Injury"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "493.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Property Damage"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "37.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Rental Reimbursement"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "60.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Accidental Death"
+                        }
+                    ],
+                    "coverable": "Personal Auto"
+                }
+            ]
+        },
+        {
+            "paymentPlanCd": "12.50% Down Installment Payment Plan - Direct Bill",
+            "planPremium": "896.00 usd",
+            "additionalQuotedScenario": [
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "306.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Bodily Injury"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "493.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Property Damage"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "37.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Rental Reimbursement"
+                        }
+                    ],
+                    "coverable": "1: Vehicle: 1HGFA162061111111"
+                },
+                {
+                    "cost": [
+                        {
+                            "actualAmountBilling": "60.00 usd",
+                            "chargePattern": "Premium",
+                            "displayName": "Premium: Accidental Death"
+                        }
+                    ],
+                    "coverable": "Personal Auto"
+                }
+            ]
+        }
+    ],
+    "options": [
+        {
+            "paymentPlanName": "Paid in Full Payment Plan",
+            "paymentType": "PIF",
+            "totalPremium": 775.00,
+            "installment": 0,
+            "noOfInstallments": 0,
+            "fee": 0,
+            "downPayment": 775.00,
+            "installmentData": [
+                {
+                    "statementDate": "2026-09-24",
+                    "dueDate": "2026-09-24",
+                    "amount": "775.00",
+                    "currency": "USD"
+                }
+            ]
+        },
+        {
+            "paymentPlanName": "1-Month Down",
+            "paymentType": "EFT",
+            "totalPremium": 1023.00,
+            "installment": 80.74,
+            "noOfInstallments": 9,
+            "fee": 6.00,
+            "downPayment": 85.75,
+            "firstInstallmentDate": "2026-10-14",
+            "installmentData": [
+                {
+                    "statementDate": "2026-09-24",
+                    "dueDate": "2026-09-24",
+                    "amount": "102.85",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-09-25",
+                    "dueDate": "2026-10-14",
+                    "amount": "301.19",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-10-26",
+                    "dueDate": "2026-11-14",
+                    "amount": "105.50",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-11-25",
+                    "dueDate": "2026-12-14",
+                    "amount": "105.50",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-12-26",
+                    "dueDate": "2027-01-14",
+                    "amount": "105.50",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-01-26",
+                    "dueDate": "2027-02-14",
+                    "amount": "105.50",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-02-23",
+                    "dueDate": "2027-03-14",
+                    "amount": "105.49",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-03-26",
+                    "dueDate": "2027-04-14",
+                    "amount": "105.49",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-04-25",
+                    "dueDate": "2027-05-14",
+                    "amount": "105.49",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-05-26",
+                    "dueDate": "2027-06-14",
+                    "amount": "105.49",
+                    "currency": "USD"
+                }
+            ]
+        },
+        {
+            "paymentPlanName": "1-Month Down",
+            "paymentType": "RCC",
+            "totalPremium": 1023.00,
+            "installment": 80.74,
+            "noOfInstallments": 9,
+            "fee": 6.00,
+            "downPayment": 85.75,
+            "firstInstallmentDate": "2026-10-14",
+            "installmentData": [
+                {
+                    "statementDate": "2026-09-24",
+                    "dueDate": "2026-09-24",
+                    "amount": "102.85",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-09-25",
+                    "dueDate": "2026-10-14",
+                    "amount": "301.19",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-10-26",
+                    "dueDate": "2026-11-14",
+                    "amount": "105.50",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-11-25",
+                    "dueDate": "2026-12-14",
+                    "amount": "105.50",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-12-26",
+                    "dueDate": "2027-01-14",
+                    "amount": "105.50",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-01-26",
+                    "dueDate": "2027-02-14",
+                    "amount": "105.50",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-02-23",
+                    "dueDate": "2027-03-14",
+                    "amount": "105.49",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-03-26",
+                    "dueDate": "2027-04-14",
+                    "amount": "105.49",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-04-25",
+                    "dueDate": "2027-05-14",
+                    "amount": "105.49",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-05-26",
+                    "dueDate": "2027-06-14",
+                    "amount": "105.49",
+                    "currency": "USD"
+                }
+            ]
+        },
+        {
+            "paymentPlanName": "10% Down Installment Payment Plan",
+            "paymentType": "EFT",
+            "totalPremium": 1029.00,
+            "installment": 79.28,
+            "noOfInstallments": 10,
+            "fee": 6.00,
+            "downPayment": 100.18,
+            "firstInstallmentDate": "2026-10-19",
+            "installmentData": [
+                {
+                    "statementDate": "2026-09-24",
+                    "dueDate": "2026-09-24",
+                    "amount": "115.48",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-09-30",
+                    "dueDate": "2026-10-19",
+                    "amount": "263.42",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-10-31",
+                    "dueDate": "2026-11-19",
+                    "amount": "92.90",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-11-30",
+                    "dueDate": "2026-12-19",
+                    "amount": "92.90",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-12-31",
+                    "dueDate": "2027-01-19",
+                    "amount": "92.89",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-01-31",
+                    "dueDate": "2027-02-19",
+                    "amount": "92.89",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-02-28",
+                    "dueDate": "2027-03-19",
+                    "amount": "92.88",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-03-31",
+                    "dueDate": "2027-04-19",
+                    "amount": "92.88",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-04-30",
+                    "dueDate": "2027-05-19",
+                    "amount": "92.88",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-05-31",
+                    "dueDate": "2027-06-19",
+                    "amount": "92.88",
+                    "currency": "USD"
+                }
+            ]
+        },
+        {
+            "paymentPlanName": "10% Down Installment Payment Plan",
+            "paymentType": "RCC",
+            "totalPremium": 1029.00,
+            "installment": 79.28,
+            "noOfInstallments": 10,
+            "fee": 6.00,
+            "downPayment": 100.18,
+            "firstInstallmentDate": "2026-10-19",
+            "installmentData": [
+                {
+                    "statementDate": "2026-09-24",
+                    "dueDate": "2026-09-24",
+                    "amount": "115.48",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-09-30",
+                    "dueDate": "2026-10-19",
+                    "amount": "263.42",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-10-31",
+                    "dueDate": "2026-11-19",
+                    "amount": "92.90",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-11-30",
+                    "dueDate": "2026-12-19",
+                    "amount": "92.90",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-12-31",
+                    "dueDate": "2027-01-19",
+                    "amount": "92.89",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-01-31",
+                    "dueDate": "2027-02-19",
+                    "amount": "92.89",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-02-28",
+                    "dueDate": "2027-03-19",
+                    "amount": "92.88",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-03-31",
+                    "dueDate": "2027-04-19",
+                    "amount": "92.88",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-04-30",
+                    "dueDate": "2027-05-19",
+                    "amount": "92.88",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-05-31",
+                    "dueDate": "2027-06-19",
+                    "amount": "92.88",
+                    "currency": "USD"
+                }
+            ]
+        },
+        {
+            "paymentPlanName": "11% Down Installment Payment Plan",
+            "paymentType": "EFT",
+            "totalPremium": 1029.00,
+            "installment": 78.40,
+            "noOfInstallments": 10,
+            "fee": 6.00,
+            "downPayment": 109.83,
+            "firstInstallmentDate": "2026-10-25",
+            "installmentData": [
+                {
+                    "statementDate": "2026-09-24",
+                    "dueDate": "2026-09-24",
+                    "amount": "124.44",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-10-06",
+                    "dueDate": "2026-10-25",
+                    "amount": "262.17",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-11-06",
+                    "dueDate": "2026-11-25",
+                    "amount": "91.93",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-12-06",
+                    "dueDate": "2026-12-25",
+                    "amount": "91.93",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-01-06",
+                    "dueDate": "2027-01-25",
+                    "amount": "91.93",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-02-06",
+                    "dueDate": "2027-02-25",
+                    "amount": "91.93",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-03-06",
+                    "dueDate": "2027-03-25",
+                    "amount": "91.93",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-04-06",
+                    "dueDate": "2027-04-25",
+                    "amount": "91.92",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-05-06",
+                    "dueDate": "2027-05-25",
+                    "amount": "91.91",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-06-06",
+                    "dueDate": "2027-06-25",
+                    "amount": "91.91",
+                    "currency": "USD"
+                }
+            ]
+        },
+        {
+            "paymentPlanName": "11% Down Installment Payment Plan",
+            "paymentType": "RCC",
+            "totalPremium": 1029.00,
+            "installment": 78.40,
+            "noOfInstallments": 10,
+            "fee": 6.00,
+            "downPayment": 109.83,
+            "firstInstallmentDate": "2026-10-25",
+            "installmentData": [
+                {
+                    "statementDate": "2026-09-24",
+                    "dueDate": "2026-09-24",
+                    "amount": "124.44",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-10-06",
+                    "dueDate": "2026-10-25",
+                    "amount": "262.17",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-11-06",
+                    "dueDate": "2026-11-25",
+                    "amount": "91.93",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-12-06",
+                    "dueDate": "2026-12-25",
+                    "amount": "91.93",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-01-06",
+                    "dueDate": "2027-01-25",
+                    "amount": "91.93",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-02-06",
+                    "dueDate": "2027-02-25",
+                    "amount": "91.93",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-03-06",
+                    "dueDate": "2027-03-25",
+                    "amount": "91.93",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-04-06",
+                    "dueDate": "2027-04-25",
+                    "amount": "91.92",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-05-06",
+                    "dueDate": "2027-05-25",
+                    "amount": "91.91",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-06-06",
+                    "dueDate": "2027-06-25",
+                    "amount": "91.91",
+                    "currency": "USD"
+                }
+            ]
+        },
+        {
+            "paymentPlanName": "12.50% Down Installment Payment Plan",
+            "paymentType": "EFT",
+            "totalPremium": 1029.00,
+            "installment": 77.08,
+            "noOfInstallments": 10,
+            "fee": 6.00,
+            "downPayment": 124.30,
+            "firstInstallmentDate": "2026-10-25",
+            "installmentData": [
+                {
+                    "statementDate": "2026-09-24",
+                    "dueDate": "2026-09-24",
+                    "amount": "122.10",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-10-06",
+                    "dueDate": "2026-10-25",
+                    "amount": "223.02",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-11-06",
+                    "dueDate": "2026-11-25",
+                    "amount": "78.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-12-06",
+                    "dueDate": "2026-12-25",
+                    "amount": "78.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-01-06",
+                    "dueDate": "2027-01-25",
+                    "amount": "78.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-02-06",
+                    "dueDate": "2027-02-25",
+                    "amount": "78.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-03-06",
+                    "dueDate": "2027-03-25",
+                    "amount": "78.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-04-06",
+                    "dueDate": "2027-04-25",
+                    "amount": "78.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-05-06",
+                    "dueDate": "2027-05-25",
+                    "amount": "78.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-06-06",
+                    "dueDate": "2027-06-25",
+                    "amount": "78.86",
+                    "currency": "USD"
+                }
+            ]
+        },
+        {
+            "paymentPlanName": "12.50% Down Installment Payment Plan",
+            "paymentType": "RCC",
+            "totalPremium": 1029.00,
+            "installment": 77.08,
+            "noOfInstallments": 10,
+            "fee": 6.00,
+            "downPayment": 124.30,
+            "firstInstallmentDate": "2026-10-25",
+            "installmentData": [
+                {
+                    "statementDate": "2026-09-24",
+                    "dueDate": "2026-09-24",
+                    "amount": "122.10",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-10-06",
+                    "dueDate": "2026-10-25",
+                    "amount": "223.02",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-11-06",
+                    "dueDate": "2026-11-25",
+                    "amount": "78.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-12-06",
+                    "dueDate": "2026-12-25",
+                    "amount": "78.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-01-06",
+                    "dueDate": "2027-01-25",
+                    "amount": "78.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-02-06",
+                    "dueDate": "2027-02-25",
+                    "amount": "78.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-03-06",
+                    "dueDate": "2027-03-25",
+                    "amount": "78.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-04-06",
+                    "dueDate": "2027-04-25",
+                    "amount": "78.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-05-06",
+                    "dueDate": "2027-05-25",
+                    "amount": "78.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-06-06",
+                    "dueDate": "2027-06-25",
+                    "amount": "78.86",
+                    "currency": "USD"
+                }
+            ]
+        },
+        {
+            "paymentPlanName": "16.67% Down Installment Payment Plan",
+            "paymentType": "EFT",
+            "totalPremium": 1029.00,
+            "installment": 73.41,
+            "noOfInstallments": 10,
+            "fee": 6.00,
+            "downPayment": 164.57,
+            "firstInstallmentDate": "2026-10-25",
+            "installmentData": [
+                {
+                    "statementDate": "2026-09-24",
+                    "dueDate": "2026-09-24",
+                    "amount": "160.21",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-10-06",
+                    "dueDate": "2026-10-25",
+                    "amount": "212.68",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-11-06",
+                    "dueDate": "2026-11-25",
+                    "amount": "75.40",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-12-06",
+                    "dueDate": "2026-12-25",
+                    "amount": "75.40",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-01-06",
+                    "dueDate": "2027-01-25",
+                    "amount": "75.40",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-02-06",
+                    "dueDate": "2027-02-25",
+                    "amount": "75.39",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-03-06",
+                    "dueDate": "2027-03-25",
+                    "amount": "75.38",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-04-06",
+                    "dueDate": "2027-04-25",
+                    "amount": "75.38",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-05-06",
+                    "dueDate": "2027-05-25",
+                    "amount": "75.38",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-06-06",
+                    "dueDate": "2027-06-25",
+                    "amount": "75.38",
+                    "currency": "USD"
+                }
+            ]
+        },
+        {
+            "paymentPlanName": "16.67% Down Installment Payment Plan",
+            "paymentType": "RCC",
+            "totalPremium": 1029.00,
+            "installment": 73.41,
+            "noOfInstallments": 10,
+            "fee": 6.00,
+            "downPayment": 164.57,
+            "firstInstallmentDate": "2026-10-25",
+            "installmentData": [
+                {
+                    "statementDate": "2026-09-24",
+                    "dueDate": "2026-09-24",
+                    "amount": "160.21",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-10-06",
+                    "dueDate": "2026-10-25",
+                    "amount": "212.68",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-11-06",
+                    "dueDate": "2026-11-25",
+                    "amount": "75.40",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-12-06",
+                    "dueDate": "2026-12-25",
+                    "amount": "75.40",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-01-06",
+                    "dueDate": "2027-01-25",
+                    "amount": "75.40",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-02-06",
+                    "dueDate": "2027-02-25",
+                    "amount": "75.39",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-03-06",
+                    "dueDate": "2027-03-25",
+                    "amount": "75.38",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-04-06",
+                    "dueDate": "2027-04-25",
+                    "amount": "75.38",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-05-06",
+                    "dueDate": "2027-05-25",
+                    "amount": "75.38",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-06-06",
+                    "dueDate": "2027-06-25",
+                    "amount": "75.38",
+                    "currency": "USD"
+                }
+            ]
+        },
+        {
+            "paymentPlanName": "1-Month Down",
+            "paymentType": "Direct",
+            "totalPremium": 1284.00,
+            "installment": 99.49,
+            "noOfInstallments": 9,
+            "fee": 10.00,
+            "downPayment": 104.50,
+            "firstInstallmentDate": "2026-10-14",
+            "installmentData": [
+                {
+                    "statementDate": "2026-09-24",
+                    "dueDate": "2026-09-24",
+                    "amount": "102.85",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-09-25",
+                    "dueDate": "2026-10-14",
+                    "amount": "305.19",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-10-26",
+                    "dueDate": "2026-11-14",
+                    "amount": "109.50",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-11-25",
+                    "dueDate": "2026-12-14",
+                    "amount": "109.50",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-12-26",
+                    "dueDate": "2027-01-14",
+                    "amount": "109.50",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-01-26",
+                    "dueDate": "2027-02-14",
+                    "amount": "109.50",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-02-23",
+                    "dueDate": "2027-03-14",
+                    "amount": "109.49",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-03-26",
+                    "dueDate": "2027-04-14",
+                    "amount": "109.49",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-04-25",
+                    "dueDate": "2027-05-14",
+                    "amount": "109.49",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-05-26",
+                    "dueDate": "2027-06-14",
+                    "amount": "109.49",
+                    "currency": "USD"
+                }
+            ]
+        },
+        {
+            "paymentPlanName": "10% Down Installment Payment Plan",
+            "paymentType": "Direct",
+            "totalPremium": 1162.00,
+            "installment": 86.89,
+            "noOfInstallments": 10,
+            "fee": 10.00,
+            "downPayment": 109.48,
+            "firstInstallmentDate": "2026-10-19",
+            "installmentData": [
+                {
+                    "statementDate": "2026-09-24",
+                    "dueDate": "2026-09-24",
+                    "amount": "119.48",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-09-30",
+                    "dueDate": "2026-10-19",
+                    "amount": "267.42",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-10-31",
+                    "dueDate": "2026-11-19",
+                    "amount": "96.90",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-11-30",
+                    "dueDate": "2026-12-19",
+                    "amount": "96.90",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-12-31",
+                    "dueDate": "2027-01-19",
+                    "amount": "96.89",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-01-31",
+                    "dueDate": "2027-02-19",
+                    "amount": "96.89",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-02-28",
+                    "dueDate": "2027-03-19",
+                    "amount": "96.88",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-03-31",
+                    "dueDate": "2027-04-19",
+                    "amount": "96.88",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-04-30",
+                    "dueDate": "2027-05-19",
+                    "amount": "96.88",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-05-31",
+                    "dueDate": "2027-06-19",
+                    "amount": "96.88",
+                    "currency": "USD"
+                }
+            ]
+        },
+        {
+            "paymentPlanName": "11% Down Installment Payment Plan",
+            "paymentType": "Direct",
+            "totalPremium": 1162.00,
+            "installment": 85.93,
+            "noOfInstallments": 10,
+            "fee": 10.00,
+            "downPayment": 120.06,
+            "firstInstallmentDate": "2026-10-25",
+            "installmentData": [
+                {
+                    "statementDate": "2026-09-24",
+                    "dueDate": "2026-09-24",
+                    "amount": "128.44",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-10-06",
+                    "dueDate": "2026-10-25",
+                    "amount": "266.17",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-11-06",
+                    "dueDate": "2026-11-25",
+                    "amount": "95.93",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-12-06",
+                    "dueDate": "2026-12-25",
+                    "amount": "95.93",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-01-06",
+                    "dueDate": "2027-01-25",
+                    "amount": "95.93",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-02-06",
+                    "dueDate": "2027-02-25",
+                    "amount": "95.93",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-03-06",
+                    "dueDate": "2027-03-25",
+                    "amount": "95.93",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-04-06",
+                    "dueDate": "2027-04-25",
+                    "amount": "95.92",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-05-06",
+                    "dueDate": "2027-05-25",
+                    "amount": "95.91",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-06-06",
+                    "dueDate": "2027-06-25",
+                    "amount": "95.91",
+                    "currency": "USD"
+                }
+            ]
+        },
+        {
+            "paymentPlanName": "12.50% Down Installment Payment Plan",
+            "paymentType": "Direct",
+            "totalPremium": 1016.00,
+            "installment": 72.87,
+            "noOfInstallments": 10,
+            "fee": 10.00,
+            "downPayment": 117.68,
+            "firstInstallmentDate": "2026-10-25",
+            "installmentData": [
+                {
+                    "statementDate": "2026-09-24",
+                    "dueDate": "2026-09-24",
+                    "amount": "126.10",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-10-06",
+                    "dueDate": "2026-10-25",
+                    "amount": "227.02",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-11-06",
+                    "dueDate": "2026-11-25",
+                    "amount": "82.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-12-06",
+                    "dueDate": "2026-12-25",
+                    "amount": "82.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-01-06",
+                    "dueDate": "2027-01-25",
+                    "amount": "82.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-02-06",
+                    "dueDate": "2027-02-25",
+                    "amount": "82.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-03-06",
+                    "dueDate": "2027-03-25",
+                    "amount": "82.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-04-06",
+                    "dueDate": "2027-04-25",
+                    "amount": "82.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-05-06",
+                    "dueDate": "2027-05-25",
+                    "amount": "82.86",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-06-06",
+                    "dueDate": "2027-06-25",
+                    "amount": "82.86",
+                    "currency": "USD"
+                }
+            ]
+        },
+        {
+            "paymentPlanName": "16.67% Down Installment Payment Plan",
+            "paymentType": "Direct",
+            "totalPremium": 1016.00,
+            "installment": 69.39,
+            "noOfInstallments": 10,
+            "fee": 10.00,
+            "downPayment": 155.73,
+            "firstInstallmentDate": "2026-10-25",
+            "installmentData": [
+                {
+                    "statementDate": "2026-09-24",
+                    "dueDate": "2026-09-24",
+                    "amount": "164.21",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-10-06",
+                    "dueDate": "2026-10-25",
+                    "amount": "216.68",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-11-06",
+                    "dueDate": "2026-11-25",
+                    "amount": "79.40",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2026-12-06",
+                    "dueDate": "2026-12-25",
+                    "amount": "79.40",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-01-06",
+                    "dueDate": "2027-01-25",
+                    "amount": "79.40",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-02-06",
+                    "dueDate": "2027-02-25",
+                    "amount": "79.39",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-03-06",
+                    "dueDate": "2027-03-25",
+                    "amount": "79.38",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-04-06",
+                    "dueDate": "2027-04-25",
+                    "amount": "79.38",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-05-06",
+                    "dueDate": "2027-05-25",
+                    "amount": "79.38",
+                    "currency": "USD"
+                },
+                {
+                    "statementDate": "2027-06-06",
+                    "dueDate": "2027-06-25",
+                    "amount": "79.38",
+                    "currency": "USD"
+                }
+            ]
+        }
+    ],
+    "coverage": [
+        {
+            "name": "Accidental Death",
+            "limit": "5,000"
+        }
+    ],
+    "drivers": [
+        {
+            "contact": {
+                "firstName": "autoa",
+                "lastName": "abcd",
+                "primaryAddress": {
+                    "addressLine1": "123 Fake St",
+                    "city": "GRIFFITH",
+                    "validUntil": "null"
+                },
+                "emailAddress1": "unknown@unknown.com"
+            },
+            "driverType": "principal",
+            "licenseNumber": "1234567",
+            "licenseState": "CT",
+            "licenseStatus": "usactive",
+            "violations": []
+        },
+        {
+            "contact": {
+                "firstName": "jane",
+                "lastName": "doe",
+                "primaryAddress": {
+                    "addressLine1": "123 Fake St",
+                    "city": "GRIFFITH",
+                    "validUntil": "null"
+                }
+            },
+            "driverType": "principal",
+            "licenseNumber": "12345678",
+            "licenseState": "CT",
+            "licenseStatus": "usactive",
+            "violations": []
+        },
+        {
+            "contact": {
+                "firstName": "Joyce",
+                "lastName": "abcd",
+                "primaryAddress": {
+                    "addressLine1": "123 Fake St",
+                    "city": "GRIFFITH",
+                    "validUntil": "null"
+                }
+            },
+            "driverType": "excluded",
+            "licenseNumber": "12345678",
+            "licenseState": "IN",
+            "licenseStatus": "ussuspended",
+            "violations": []
+        },
+        {
+            "contact": {
+                "firstName": "rishab",
+                "lastName": "doe",
+                "primaryAddress": {
+                    "addressLine1": "123 Fake St",
+                    "city": "GRIFFITH",
+                    "validUntil": "null"
+                }
+            },
+            "driverType": "principal",
+            "licenseNumber": "12345678",
+            "licenseState": "IN",
+            "licenseStatus": "usactive",
+            "violations": []
+        }
+    ],
+    "vehicles": [
+        {
+            "make": "HOND",
+            "model": "CIVIC DX",
+            "vin": "1HGFA162061111111",
+            "year": 2006,
+            "coverage": [
+                {
+                    "name": "Bodily Injury",
+                    "limit": "25/50"
+                },
+                {
+                    "name": "Property Damage",
+                    "limit": "25"
+                },
+                {
+                    "name": "Rental Reimbursement",
+                    "limit": "20/600"
+                }
+            ]
+        }
+    ],
+    "quoteInfo": {
+        "summaryURL": "https://uat.trexis.com/#JDPLogin?UrlType=summary&QuoteID=1d393f85-9b4f-4435-979e-fc67469eacec",
+        "bridgeURL": "https://uat.trexis.com/#JDPLogin?UrlType=bridge&QuoteID=1d393f85-9b4f-4435-979e-fc67469eacec",
+        "quoteID": "1d393f85-9b4f-4435-979e-fc67469eacec",
+        "parentQuote": "Confie",
+        "status": "quoted"
+    },
+    "errorresponse": {}
+}
